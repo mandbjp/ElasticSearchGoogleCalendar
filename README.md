@@ -1,1 +1,1 @@
-# ElasticsearchGoogleCalendar
+# ElasticSearchGoogleCalendar
