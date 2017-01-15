@@ -88,5 +88,7 @@ ENV/
 # Rope project settings
 .ropeproject
 
+# Added manualy
 .idea/
-
+config/client_secret*.json
+storage/*.json
