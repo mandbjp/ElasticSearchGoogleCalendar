@@ -1,0 +1,26 @@
+{
+  "mappings": {
+    "post": {
+      "properties": {
+        "id": {
+          "type": "long",
+          "store": "yes"
+        },
+        "name": {
+          "type": "string",
+          "store": "yes",
+          "index": "analyzed"
+        },
+        "published": {
+          "type": "date",
+          "store": "yes"
+        },
+        "content": {
+          "type": "string",
+          "store": "no",
+          "index": "analyzed"
+        }
+      }
+    }
+  }
+}

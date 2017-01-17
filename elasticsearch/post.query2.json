@@ -1,0 +1,11 @@
+{
+  "query": {
+    "fuzzy": {
+      "content": {
+        "value": "hello",
+        "fuzziness": 2,
+        "boost": 3.0
+      }
+    }
+  }  
+}
