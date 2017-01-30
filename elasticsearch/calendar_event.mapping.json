@@ -1,0 +1,18 @@
+{
+  "mappings": {
+    "event": {
+      "properties": {
+        "id":          { "type": "string", "store": "yes", "index": "not_analyzed"  },
+        "subject":     { "type": "string", "store": "yes", "index": "analyzed" },
+        "description": { "type": "string", "store": "yes", "index": "analyzed" },
+        "start_date":  { "type": "date",   "store": "yes" },
+        "end_date":    { "type": "date",   "store": "yes" },
+        "visibility":  { "type": "string", "store": "yes", "index": "not_analyzed" },
+        "tranparency": { "type": "string", "store": "yes", "index": "not_analyzed" },
+        "is_recurrence": { "type": "boolean", "store": "yes", "index": "not_analyzed" },
+        "html_link":   { "type": "string", "store": "yes", "index": "not_analyzed" },
+        "attendees":   { "type": "nested", "store": "no" }
+      }
+    }
+  }
+}
